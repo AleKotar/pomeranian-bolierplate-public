@@ -70,14 +70,12 @@
 .cwiczenie-7 a {
   color: red;
 } */
-
 .cwiczenie-7 p,
 .cwiczenie-7 a {
   color: red;
 }
 
 /* --- */
-
 .p-1.green {
   color: green;
 }
