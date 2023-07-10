@@ -8,8 +8,7 @@ import { Layout } from './App/Layout';
 import { Dashboard } from './App/Dashboard';
 import { Exercises } from './App/Exercises';
 import { CV } from './App/CV';
-import { Calendar} from './App/Calendar';
-
+import { Calendar } from './App/Calendar';
 
 export function App() {
   return (

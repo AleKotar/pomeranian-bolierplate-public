@@ -3,15 +3,15 @@ import React from 'react';
 import './style.css';
 
 export function Cwiczenie2() {
-  const [tekst, setTekst] = React.useState('TEkst domyślny');
-  function handleOnSubmit(event) {
+  const [tekst, setTekst] = React.useState('0');
+  function click(event) {
     event.preventDefault();
 
     console.log('Kliknięto przycisk');
 
     console.log(event);
 
-    const trescInputa = event.target[0].value;
+    let i = 0;
 
     console.log('tresc inputa: ', trescInputa);
 
@@ -24,12 +24,8 @@ export function Cwiczenie2() {
 
       <div>
         <div>
-          <p>Wpisz tekst</p>
-
-          <form onSubmit={handleOnSubmit}>
-            <input type="text" placeholder="tekst do wpisania" />
-
-            <button type="submit">KLIKNIJ</button>
+          <form onSubmit={click}>
+            <button type="submit">Kliknięto mnie {tekst} raz/razy</button>
           </form>
         </div>
 
