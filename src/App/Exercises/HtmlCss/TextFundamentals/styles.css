@@ -1,0 +1,12 @@
+.blok-testowy {
+  font-family: 'Quicksand', sans-serif;
+}
+.blok-testowy-2 {
+  color: blueviolet;
+}
+.blok-testowy-3 {
+  font-family: 'Quicksand', sans-serif;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
