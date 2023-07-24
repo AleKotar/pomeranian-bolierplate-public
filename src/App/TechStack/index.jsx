@@ -1,12 +1,13 @@
 import './styles.css';
 import { TechStackElement } from '../Components/TechStackElement';
+import HtmlIcon from '/root/projects/pomeranian-bolierplate-public/src/App/Images/tech-stack/html.svg';
 
 export function TechStack() {
   const TechStackInfo = [
     {
       id: 1,
       title: 'html',
-      src: require('/root/projects/pomeranian-bolierplate-public/src/App/Images/tech-stack/html.svg'),
+      src: HtmlIcon,
     },
     {
       id: 2,
