@@ -74,8 +74,7 @@ export function Exercise() {
       const cleanedSlowo = slowo.toLowerCase();
       const cleanedSlowo2 = slowo2.toLowerCase();
       const reverseSlowo = cleanedSlowo.split('').reverse().join('');
-      const reverseSlowo2 = cleanedSlowo2.split('').reverse().join('');
-      return reverseSlowo === reverseSlowo2;
+      return reverseSlowo === cleanedSlowo2;
     }
     const sprawdzAnagram = isAnagram(slowo, slowo2);
 
