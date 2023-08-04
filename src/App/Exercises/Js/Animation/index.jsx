@@ -1,25 +1,35 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import './styles.css';
 
 export const Exercise = () => {
-  const sentence = 'I love react :)';
-  const [displayedSentence, setDisplayedSentence] = useState('');
+  const [text, setText] = useState('I love React :) ');
+  const [isAnimated, setIsAnimated] = useState(true);
+
+  function toggleAnimation() {
+    setIsAnimated((prevState) => !prevState);
+  }
 
   useEffect(() => {
-    let currentIndex = 0;
+    if (isAnimated) {
+      const interval = setInterval(() => {
+        const lastLetter = text.charAt(text.length - 1);
+        const newText = lastLetter + text.substring(0, text.length - 1);
+        console.log(newText);
+        setText(newText);
+      }, [200]);
 
-    const interval = setInterval(() => {
-      if (currentIndex <= sentence.length) {
-        setDisplayedSentence(sentence.slice(0, currentIndex));
-        currentIndex++;
-      } else {
+      return () => {
         clearInterval(interval);
-      }
-    }, 100); // Adjust the interval time (in milliseconds) to control the animation speed
+      };
+    }
+  }, [text, isAnimated]);
 
-    return () => clearInterval(interval);
-  }, []);
-
-  return <div>{displayedSentence}</div>;
+  return (
+    <div>
+      <p>{text}</p>
+      <button onClick={toggleAnimation}>
+        {isAnimated ? 'Pause' : 'Start'}
+      </button>
+    </div>
+  );
 };
-
-export default Exercise;
