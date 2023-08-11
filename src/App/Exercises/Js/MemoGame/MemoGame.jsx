@@ -15,11 +15,16 @@ export function MemoGame() {
   const [time, setTime] = useState(5);
   const [initialTime, setInitialTime] = useState(INITIAL_TIME);
   const [isGameStarted, setIsGameStarted] = useState(false);
+  const [boardSize, setBoardSize] = useState();
   return (
     <div>
       <h3>Gra polegająca na zapamiętywaniu</h3>
       {!isGameStarted && (
-        <MenuView setTime={setTime} setIsGameStarted={setIsGameStarted} />
+        <MenuView
+          setBoardSize={setBoardSize}
+          setTime={setTime}
+          setIsGameStarted={setIsGameStarted}
+        />
       )}
       {isGameStarted && (
         <GameView

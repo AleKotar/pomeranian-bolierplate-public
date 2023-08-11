@@ -1,5 +1,9 @@
 import './styles.css';
+import { useState } from 'react';
+
+const emptyBoard = [{ value: x }, { value: X }, { value: X }, { value: X }];
 export const PlaygroundView = () => {
+  const [board, setBoard] = useState(emptyBoard);
   return (
     <div className="grid-container">
       <div className="grid-row">

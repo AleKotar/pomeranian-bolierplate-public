@@ -1,7 +1,7 @@
 import { Menu } from '../Menu/menu';
 import { SelectButtons } from '../SelectButtons/select-buttons.jsx';
 import { Button } from '../Button/button';
-export const MenuView = ({ setIsGameStarted, setTime }) => {
+export const MenuView = ({ setIsGameStarted, setBoardSize, setTime }) => {
   const handleStartClick = () => {
     setIsGameStarted(true);
     setTime(60);
@@ -11,6 +11,7 @@ export const MenuView = ({ setIsGameStarted, setTime }) => {
     <div>
       <Menu label="Liczba Elementów">
         <SelectButtons
+          setValue={setBoardSize}
           options={[
             { value: 1, label: '9 elementow', isActive: true },
             { value: 2, label: '16 elementow', isActive: false },
