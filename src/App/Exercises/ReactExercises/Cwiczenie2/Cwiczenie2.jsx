@@ -4,6 +4,10 @@ import './style.css';
 
 export function Cwiczenie2() {
   const [tekst, setTekst] = React.useState('0');
+
+  // Deklaracja zmiennej trescInputa
+  let trescInputa = ''; // lub inicjalizuj z odpowiednią wartością
+
   function click(event) {
     event.preventDefault();
 
@@ -25,6 +29,11 @@ export function Cwiczenie2() {
       <div>
         <div>
           <form onSubmit={click}>
+            <input
+              type="text"
+              value={trescInputa} // Przypisanie wartości do trescInputa
+              onChange={(event) => (trescInputa = event.target.value)}
+            />
             <button type="submit">Kliknięto mnie {tekst} raz/razy</button>
           </form>
         </div>
