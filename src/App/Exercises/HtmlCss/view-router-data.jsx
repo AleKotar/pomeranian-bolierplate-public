@@ -1,6 +1,8 @@
 import { getParsedRouterDataList } from '../../router-data/parseRouterData';
 
 import { blockRouterMetaData as blockRouterMetaData121220231 } from './Exercise-example-12-12-2023-1/router-data';
+import { blockRouterMetaData as TextFundamentalsMetaData } from './TextFundamentals/router-data';
+
 
 import { blockRouterMetaData as selectorsAndCascade } from './SelectorsandCascade/router-data';
 import { blockRouterMetaData as ColorsblockRouterMetaData } from './Colors/router-data';
@@ -29,6 +31,8 @@ export const blockRouterMetaData = [
   MediaQueriesblockRouterMetaData,
   FloatsAndPositioninglockRouterMetaData,
   selectorsAndCascade,
-  blockRouterMetaData121220231
+  blockRouterMetaData121220231,
+  TextFundamentalsMetaData,
+
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
