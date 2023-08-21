@@ -8,6 +8,10 @@ import { blockRouterMetaData as blockRouterMetaDataEmptyValuesAndComments } from
 import { blockRouterMetaData as blockRouterMetaDataJsStringTraining } from './JsStringTraining/router-data';
 import { blockRouterMetaData as blockRouterMetaDataArrays } from './Arrays/router-data';
 import { blockRouterMetaData as blockRouterMetaDataArraysStringsEtc } from './StringArraysPracaWlasna/router-data';
+import { blockRouterMetaData as blockRouterMetaDataJSONXML } from './JsonXML/router-data';
+import { blockRouterMetaData as blockRouterMetaPromises } from './Promises/router-data';
+import { blockRouterMetaData as blockRouterMetaAsync } from './asyncAwaitExercise/router-data';
+import { blockRouterMetaData as blockRouterMetaMethodsPromiseTraining } from './PromiseMethodsTraining/router-data';
 import { blockRouterMetaData as blockRouterMetaDataTabliceTrening } from './TabliceTrening/router-data';
 import { blockRouterMetaData as blockRouterMetaDataObjects } from './Objects/router-data';
 import { blockRouterMetaData as blockRouterMetaDataJsFunctionBasics } from './JsFunctionBasics/router-data';
@@ -19,6 +23,7 @@ import { blockRouterMetaData as blockRouterMetaDataHitAMole } from './HitAMole/r
 import { blockRouterMetaData as blockRouterMetaDataMemoGame } from './MemoGame/router-data';
 import { blockRouterMetaData as blockRouterMetaDataMemoGameExample } from './MemoGameExample/router-data';
 
+
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
   blockRouterMetaDataJsVariables2,
@@ -28,6 +33,10 @@ export const blockRouterMetaData = [
   blockRouterMetaDataJsStringTraining,
   blockRouterMetaDataArrays,
   blockRouterMetaDataArraysStringsEtc,
+  blockRouterMetaDataJSONXML,
+  blockRouterMetaPromises,
+  blockRouterMetaAsync,
+  blockRouterMetaMethodsPromiseTraining,
   blockRouterMetaDataTabliceTrening,
   blockRouterMetaDataObjects,
   blockRouterMetaDataJsFunctionBasics,
@@ -38,5 +47,6 @@ export const blockRouterMetaData = [
   blockRouterMetaDataHitAMole,
   blockRouterMetaDataMemoGame,
   blockRouterMetaDataMemoGameExample,
+
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
