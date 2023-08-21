@@ -1,0 +1,12 @@
+.btn-mg {
+  margin: 10px;
+  background-color: #23213d;
+  color: #fff;
+  min-width: 100px;
+  min-height: 20px;
+}
+.btn-mg-active {
+  background-color: #ff0000;
+  min-width: 80px;
+  min-height: 20px;
+}

@@ -1,0 +1,22 @@
+.tech-stack-element-title {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0.83em;
+  margin-bottom: 2.49em;
+}
+.tech-stack-element-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+}
+.tech-stack-element-whole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
