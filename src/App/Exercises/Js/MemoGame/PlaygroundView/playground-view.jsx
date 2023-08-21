@@ -1,7 +1,7 @@
 import './styles.css';
 import { useState } from 'react';
 
-const emptyBoard = [{ value: x }, { value: X }, { value: X }, { value: X }];
+const emptyBoard = [];
 export const PlaygroundView = () => {
   const [board, setBoard] = useState(emptyBoard);
   return (
