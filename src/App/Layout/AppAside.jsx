@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './styles/aside.css';
 import { CalendarIcon } from '../Components/Icons/CalendarIcon';
 import { HouseIcon } from '../Components/Icons/HouseIcon';
+import { FaqIcon } from '../Components/Icons/FaqIcon';
 
 export function AppAside() {
   return (
@@ -30,8 +31,14 @@ export function AppAside() {
             <CalendarIcon />
             <NavLink to="calendar">Calendar</NavLink>
           </li>
+
           <li className="blog">
             <NavLink to="Blog">Blog</NavLink>
+
+          <li className="aside-row">
+            <FaqIcon />
+            <NavLink to="FAQ">FAQ</NavLink>
+
           </li>
         </ul>
       </nav>

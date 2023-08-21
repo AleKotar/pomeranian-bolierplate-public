@@ -1,0 +1,9 @@
+.mg-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.mg-menu h3 {
+  font-size: 20px;
+  width: 200px;
+}

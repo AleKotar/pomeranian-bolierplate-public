@@ -1,0 +1,64 @@
+.floats-wrapper {
+  width: 800px;
+}
+
+.floats-p-relative {
+  position: relative;
+  left: 30px;
+}
+.floats-div-relative {
+  position: relative;
+  padding: 17px 21px 17px 21px;
+  gap: 10px;
+  background-color: #ebebeb;
+  margin-bottom: 24px;
+}
+.floats-div-absolute {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 160px;
+  top: -100px;
+  left: 680px;
+  padding: 12.375px 19.9375px 12.375px 19.9375px;
+  border-radius: 5.5px;
+  border: 1px;
+  gap: 6.875px;
+  background-color: #ffd5dbd2;
+}
+.floats-img-p img {
+  height: 320px;
+  width: 320px;
+  float: left;
+  border-radius: 5.5px;
+  margin: 10px 10px;
+}
+.floats-img-p {
+  position: static;
+  border-radius: 5.5;
+  background-color: #ffd5dbd2;
+  height: 240px;
+}
+.floats-img-p p {
+  position: relative;
+  top: 75px;
+  justify-content: center;
+  align-items: center;
+}
+.floats-gray-div {
+  position: static;
+  background-color: gray;
+  top: 200px;
+}
+
+.floats-button {
+  width: 200px;
+  height: 100px;
+  padding: 10px 127px 10px 127px;
+  border-radius: 19.643802642822266px;
+  border: 1px;
+  gap: 10px;
+  border: 1px solid #fe3756;
+}

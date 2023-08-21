@@ -1,0 +1,22 @@
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.grid-row {
+  display: flex;
+  gap: 10px;
+}
+
+.grid-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ececec25;
+  border: 1px solid #ccc;
+  max-width: 100px;
+  height: 100px;
+  font-size: 18px;
+}
