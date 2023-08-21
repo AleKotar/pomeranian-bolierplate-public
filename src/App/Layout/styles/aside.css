@@ -30,7 +30,6 @@ aside li a {
 aside a:hover,
 aside a.active {
   color: #fe3756;
-  background-color: blue;
 }
 
 aside a.active svg path {

@@ -34,11 +34,10 @@ export function AppAside() {
 
           <li className="blog">
             <NavLink to="Blog">Blog</NavLink>
-
+          </li>
           <li className="aside-row">
             <FaqIcon />
             <NavLink to="FAQ">FAQ</NavLink>
-
           </li>
         </ul>
       </nav>
