@@ -1,9 +1,21 @@
-.grid {
+.tech-stack-whole {
+  margin-right: 25%;
+}
+.tech-stack-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  margin-top: 2.49em;
+}
+.tech-stack-whole h3 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 
 .div1 {
