@@ -12,6 +12,17 @@ import { blockRouterMetaData as blockRouterMetaDataJSONXML } from './JsonXML/rou
 import { blockRouterMetaData as blockRouterMetaPromises } from './Promises/router-data';
 import { blockRouterMetaData as blockRouterMetaAsync } from './asyncAwaitExercise/router-data';
 import { blockRouterMetaData as blockRouterMetaMethodsPromiseTraining } from './PromiseMethodsTraining/router-data';
+import { blockRouterMetaData as blockRouterMetaDataTabliceTrening } from './TabliceTrening/router-data';
+import { blockRouterMetaData as blockRouterMetaDataObjects } from './Objects/router-data';
+import { blockRouterMetaData as blockRouterMetaDataJsFunctionBasics } from './JsFunctionBasics/router-data';
+import { blockRouterMetaData as blockRouterMetaDataExerciseJSFunctionExtended } from './Exercise-js-functions-extended/router-data';
+import { blockRouterMetaData as blockRouterMetaDataExerciseInterwalDate } from './IntervalDate/router-data';
+import { blockRouterMetaData as blockRouterMetaDataExercisDates } from './Date/router-data';
+import { blockRouterMetaData as blockRouterMetaDataAnimation } from './Animation/router-data';
+import { blockRouterMetaData as blockRouterMetaDataHitAMole } from './HitAMole/router-data';
+import { blockRouterMetaData as blockRouterMetaDataMemoGame } from './MemoGame/router-data';
+import { blockRouterMetaData as blockRouterMetaDataMemoGameExample } from './MemoGameExample/router-data';
+
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -26,5 +37,16 @@ export const blockRouterMetaData = [
   blockRouterMetaPromises,
   blockRouterMetaAsync,
   blockRouterMetaMethodsPromiseTraining,
+  blockRouterMetaDataTabliceTrening,
+  blockRouterMetaDataObjects,
+  blockRouterMetaDataJsFunctionBasics,
+  blockRouterMetaDataExerciseJSFunctionExtended,
+  blockRouterMetaDataExerciseInterwalDate,
+  blockRouterMetaDataExercisDates,
+  blockRouterMetaDataAnimation,
+  blockRouterMetaDataHitAMole,
+  blockRouterMetaDataMemoGame,
+  blockRouterMetaDataMemoGameExample,
+
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);

@@ -1,0 +1,8 @@
+.mg-gameview {
+  display: flex;
+  flex-direction: column;
+}
+.mg-gameview div {
+  display: flex;
+  flex-direction: row;
+}
