@@ -22,7 +22,7 @@ import { blockRouterMetaData as blockRouterMetaDataAnimation } from './Animation
 import { blockRouterMetaData as blockRouterMetaDataHitAMole } from './HitAMole/router-data';
 import { blockRouterMetaData as blockRouterMetaDataMemoGame } from './MemoGame/router-data';
 import { blockRouterMetaData as blockRouterMetaDataMemoGameExample } from './MemoGameExample/router-data';
-
+import { blockRouterMetaData as blockRouterMetaDataObjectOrientedProgramming } from './OOP/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -47,6 +47,6 @@ export const blockRouterMetaData = [
   blockRouterMetaDataHitAMole,
   blockRouterMetaDataMemoGame,
   blockRouterMetaDataMemoGameExample,
-
+  blockRouterMetaDataObjectOrientedProgramming,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
