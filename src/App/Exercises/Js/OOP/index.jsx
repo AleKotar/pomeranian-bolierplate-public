@@ -364,6 +364,29 @@ export function Exercise() {
 
   const pediatrician = new Pediatritian();
   pediatrician.introduce();
+
+  //Zadanie z kartki
+
+  class Engine {
+    start() {
+      console.log('engine on');
+    }
+    stop() {
+      console.log('engine off');
+    }
+  }
+  class Klakson {
+    beep() {
+      console.log('Beep');
+    }
+  }
+  class SteeringWheel {
+    turn(direction) {
+      return 'skrecamy w ${direction}';
+    }
+  }
+  class GPS {}
+
   // -----------------------------------------------------------------------------
   // LINKI POMOCNICZE:
   // https://javascript.info/classes
