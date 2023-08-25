@@ -36,6 +36,9 @@ export function Exercise() {
   // JSON - serializacja(parsowanie) i deserializacja
   // --------------------------------------
 
+  const JsonString2 = '{"name:":"John", "surname":"Doe", "car":null}';
+
+  const JsonObiekt = JSON.parse(JsonString2);
   const jsonString = '{"name":"John", "age":30, "car":null}';
 
   // JSON.parse() - deserializacja
