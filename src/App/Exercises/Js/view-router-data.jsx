@@ -26,6 +26,7 @@ import { blockRouterMetaData as blockRouterMetaDataObjectOrientedProgramming } f
 import { blockRouterMetaData as blockRouterMetaDataTryCatch } from './TryCatch/router-data';
 import { blockRouterMetaData as blockRouterMetaDataTryCatchEXC } from './TryCatchExercise/router-data';
 import { blockRouterMetaData as blockRouterMetaDataToDoExample } from './ToDoWithServerExample/router-data';
+import { blockRouterMetaData as blockRouterMetaDataDOMUseRef } from './DOMuseRef/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -54,5 +55,6 @@ export const blockRouterMetaData = [
   blockRouterMetaDataTryCatch,
   blockRouterMetaDataTryCatchEXC,
   blockRouterMetaDataToDoExample,
+  blockRouterMetaDataDOMUseRef,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
