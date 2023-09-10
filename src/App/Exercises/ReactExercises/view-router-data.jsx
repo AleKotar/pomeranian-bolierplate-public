@@ -12,6 +12,8 @@ import { reactUseRef } from './UseRef/router-data';
 import { ToDoWithServerMetaData } from './ToDoWithServer/router-data';
 import { FormularzeMetaData } from './Formularze/router-data';
 import { FireBaseLoginFormMetaData } from './FirebaseLoginForm/router-data';
+import { ReduxMetaData } from './Redux/router-data';
+import { ReduxCounterMetaData } from './ReduxCounter/router-data';
 
 import { FormPrivateExerciseMetaData } from './FormularzePrivateExercise/router-data';
 
@@ -27,5 +29,7 @@ export const blockRouterMetaData = [
   FormularzeMetaData,
   FormPrivateExerciseMetaData,
   FireBaseLoginFormMetaData,
+  ReduxMetaData,
+  ReduxCounterMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
